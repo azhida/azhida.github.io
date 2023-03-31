@@ -102,8 +102,8 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-- type: git
-  repo: https://github.com/azhida/azhida.github.io.git,master
+# - type: git
+#   repo: https://github.com/azhida/azhida.github.io.git,master
 - type: git  
-  repo: https://github.com/azhida/blog.git,master
+  repo: https://github.com/azhida/blog.git,gh-pages
   # branch: master
