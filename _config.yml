@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://wghzhida.gitee.io/blog
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -104,7 +104,7 @@ theme: landscape
 deploy:
 # - type: git
 #   repo: https://github.com/azhida/azhida.github.io.git,master
-# - type: git  
-#   repo: https://github.com/azhida/blog.git,gh-pages
+- type: git  
+  repo: git@github.com:azhida/blog.git,gh-pages
 - type: git  
   repo: git@gitee.com:wghzhida/blog.git,gh-pages  
