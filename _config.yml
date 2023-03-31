@@ -104,6 +104,7 @@ theme: landscape
 deploy:
 # - type: git
 #   repo: https://github.com/azhida/azhida.github.io.git,master
+# - type: git  
+#   repo: https://github.com/azhida/blog.git,gh-pages
 - type: git  
-  repo: https://github.com/azhida/blog.git,gh-pages
-  # branch: master
+  repo: git@gitee.com:wghzhida/blog.git,gh-pages  
